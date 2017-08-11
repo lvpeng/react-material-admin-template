@@ -42,8 +42,8 @@ const TablePage = () => {
   };
 
   return (
-    <PageBase title="Table Page"
-              navigation="Application / Table Page">
+    <PageBase title="课程列表"
+              navigation="学而思培优 / 课程列表">
 
       <div>
         <Link to="/form" >
@@ -56,10 +56,10 @@ const TablePage = () => {
           <TableHeader>
             <TableRow>
               <TableHeaderColumn style={styles.columns.id}>ID</TableHeaderColumn>
-              <TableHeaderColumn style={styles.columns.name}>Name</TableHeaderColumn>
-              <TableHeaderColumn style={styles.columns.price}>Price</TableHeaderColumn>
-              <TableHeaderColumn style={styles.columns.category}>Category</TableHeaderColumn>
-              <TableHeaderColumn style={styles.columns.edit}>Edit</TableHeaderColumn>
+              <TableHeaderColumn style={styles.columns.name}>课程</TableHeaderColumn>
+              <TableHeaderColumn style={styles.columns.price}>价格</TableHeaderColumn>
+              <TableHeaderColumn style={styles.columns.category}>分类</TableHeaderColumn>
+              <TableHeaderColumn style={styles.columns.edit}>编辑</TableHeaderColumn>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -82,7 +82,7 @@ const TablePage = () => {
               </TableRow>
             )}
           </TableBody>
-        </Table>    
+        </Table>
       </div>
     </PageBase>
   );

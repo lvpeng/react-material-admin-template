@@ -34,14 +34,14 @@ const RecentlyProducts = (props) => {
 
   const rightIconMenu = (
     <IconMenu iconButtonElement={iconButtonElement}>
-      <MenuItem>View</MenuItem>
+      <MenuItem>查看</MenuItem>
     </IconMenu>
   );
 
   return (
     <Paper>
       <List>
-        <Subheader style={styles.subheader}>Recent Products</Subheader>
+        <Subheader style={styles.subheader}>最新通知</Subheader>
         {props.data.map(item =>
           <div key={item.title}>
             <ListItem

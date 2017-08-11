@@ -32,33 +32,33 @@ const FormPage = () => {
   };
 
   return (
-    <PageBase title="Form Page"
-              navigation="Application / Form Page">
+    <PageBase title="填写录入"
+              navigation="学而思培优 / 学前">
       <form>
 
         <TextField
-          hintText="Name"
-          floatingLabelText="Name"
+          hintText="姓名"
+          floatingLabelText="姓名"
           fullWidth={true}
         />
 
         <SelectField
-          floatingLabelText="City"
-          value=""
+          floatingLabelText="城市"
+          value="城市"
           fullWidth={true}>
-          <MenuItem key={0} primaryText="London"/>
-          <MenuItem key={1} primaryText="Paris"/>
-          <MenuItem key={2} primaryText="Rome"/>
+          <MenuItem key={0} primaryText="北京"/>
+          <MenuItem key={1} primaryText="成都"/>
+          <MenuItem key={2} primaryText="杭州"/>
         </SelectField>
 
         <DatePicker
-          hintText="Expiration Date"
-          floatingLabelText="Expiration Date"
+          hintText="开课日期"
+          floatingLabelText="开课日期"
           fullWidth={true}/>
 
         <div style={styles.toggleDiv}>
           <Toggle
-            label="Disabled"
+            label="配套课程"
             labelStyle={styles.toggleLabel}
           />
         </div>
@@ -67,10 +67,10 @@ const FormPage = () => {
 
         <div style={styles.buttons}>
           <Link to="/">
-            <RaisedButton label="Cancel"/>
+            <RaisedButton label="取消"/>
           </Link>
 
-          <RaisedButton label="Save"
+          <RaisedButton label="保存"
                         style={styles.saveButton}
                         type="submit"
                         primary={true}/>

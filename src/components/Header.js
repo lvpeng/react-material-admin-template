@@ -50,9 +50,9 @@ class Header extends React.Component {
                             targetOrigin={{horizontal: 'right', vertical: 'top'}}
                             anchorOrigin={{horizontal: 'right', vertical: 'top'}}
                   >
-                    <MenuItem key={1} primaryText="Application 1"/>
-                    <MenuItem key={2} primaryText="Application 2"/>
-                    <MenuItem key={3} primaryText="Application 3"/>
+                    <MenuItem key={1} primaryText="北京"/>
+                    <MenuItem key={2} primaryText="上海"/>
+                    <MenuItem key={3} primaryText="杭州"/>
                   </IconMenu>
                   <IconMenu color={white}
                             iconButtonElement={
@@ -61,7 +61,7 @@ class Header extends React.Component {
                             targetOrigin={{horizontal: 'right', vertical: 'top'}}
                             anchorOrigin={{horizontal: 'right', vertical: 'top'}}
                   >
-                    <MenuItem primaryText="Sign out"/>
+                    <MenuItem primaryText="退出"/>
                   </IconMenu>
                 </div>
               }

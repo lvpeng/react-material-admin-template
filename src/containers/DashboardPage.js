@@ -16,15 +16,15 @@ const DashboardPage = () => {
 
   return (
     <div>
-      <h3 style={globalStyles.navigation}>Application / Dashboard</h3>
+      <h3 style={globalStyles.navigation}>学而思培优 / 首页</h3>
 
       <div className="row">
 
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
           <InfoBox Icon={ShoppingCart}
                    color={pink600}
-                   title="Total Profit"
-                   value="1500k"
+                   title="暑秋课程"
+                   value="报名指南"
           />
         </div>
 
@@ -32,24 +32,24 @@ const DashboardPage = () => {
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
           <InfoBox Icon={ThumbUp}
                    color={cyan600}
-                   title="Likes"
-                   value="4231"
+                   title="核心素养"
+                   value="成为中高考主线"
           />
         </div>
 
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
           <InfoBox Icon={Assessment}
                    color={purple600}
-                   title="Sales"
-                   value="460"
+                   title="全年学习计划"
+                   value="提高学习能力"
           />
         </div>
 
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
           <InfoBox Icon={Face}
                    color={orange600}
-                   title="New Members"
-                   value="248"
+                   title="学而思俱乐部"
+                   value="积分规则"
           />
         </div>
       </div>

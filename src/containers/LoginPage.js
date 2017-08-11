@@ -81,27 +81,27 @@ const LoginPage = () => {
 
             <form>
               <TextField
-                hintText="E-mail"
-                floatingLabelText="E-mail"
+                hintText="手机号／邮箱"
+                floatingLabelText="手机号／邮箱"
                 fullWidth={true}
               />
               <TextField
-                hintText="Password"
-                floatingLabelText="Password"
+                hintText="密码"
+                floatingLabelText="密码"
                 fullWidth={true}
                 type="password"
               />
 
               <div>
                 <Checkbox
-                  label="Remember me"
+                  label="记住密码"
                   style={styles.checkRemember.style}
                   labelStyle={styles.checkRemember.labelStyle}
                   iconStyle={styles.checkRemember.iconStyle}
                 />
 
                 <Link to="/">
-                  <RaisedButton label="Login"
+                  <RaisedButton label="登录"
                                 primary={true}
                                 style={styles.loginBtn}/>
                 </Link>
@@ -111,30 +111,20 @@ const LoginPage = () => {
 
           <div style={styles.buttonsDiv}>
             <FlatButton
-              label="Register"
+              label="注册"
               href="/"
               style={styles.flatButton}
               icon={<PersonAdd />}
             />
 
             <FlatButton
-              label="Forgot Password?"
+              label="忘记密码?"
               href="/"
               style={styles.flatButton}
               icon={<Help />}
             />
           </div>
 
-          <div style={styles.buttonsDiv}>
-            <Link to="/" style={{...styles.btn, ...styles.btnFacebook}}>
-              <i className="fa fa-facebook fa-lg"/>
-              <span style={styles.btnSpan}>Log in with Facebook</span>
-            </Link>
-            <Link to="/" style={{...styles.btn, ...styles.btnGoogle}}>
-              <i className="fa fa-google-plus fa-lg"/>
-              <span style={styles.btnSpan}>Log in with Google</span>
-            </Link>
-          </div>
         </div>
       </div>
     </MuiThemeProvider>

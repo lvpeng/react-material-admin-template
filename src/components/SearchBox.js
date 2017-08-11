@@ -34,7 +34,7 @@ const SearchBox = () => {
         <Search color={white} />
       </IconButton>
       <TextField
-        hintText="Search..."
+        hintText="输入班级名称或者老师名称..."
         underlineShow={false}
         fullWidth={true}
         style={styles.textField}

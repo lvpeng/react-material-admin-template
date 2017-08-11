@@ -10,43 +10,42 @@ import ChevronRight from 'material-ui/svg-icons/navigation/chevron-right';
 
 const data = {
   menus: [
-    { text: 'DashBoard', icon: <Assessment/>, link: '/dashboard' },
-    { text: 'Form Page', icon: <Web/>, link: '/form' },
-    { text: 'Table Page', icon: <GridOn/>, link: '/table' },
-    { text: 'Login Page', icon: <PermIdentity/>, link: '/login' }
+    { text: '首页', icon: <Assessment/>, link: '/dashboard' },
+    { text: '学前', icon: <Web/>, link: '/form' },
+    { text: '小学', icon: <GridOn/>, link: '/table' },
+    { text: '登录', icon: <PermIdentity/>, link: '/login' },
+
   ],
   tablePage: {
     items: [
-      {id: 1, name: 'Product 1', price: '$50.00', category: 'Category 1'},
-      {id: 2, name: 'Product 2', price: '$150.00', category: 'Category 2'},
-      {id: 3, name: 'Product 3', price: '$250.00', category: 'Category 3'},
-      {id: 4, name: 'Product 4', price: '$70.00', category: 'Category 4'},
-      {id: 5, name: 'Product 5', price: '$450.00', category: 'Category 5'},
-      {id: 6, name: 'Product 6', price: '$950.00', category: 'Category 6'},
-      {id: 7, name: 'Product 7', price: '$550.00', category: 'Category 7'},
-      {id: 8, name: 'Product 8', price: '$750.00', category: 'Category 8'}
+      {id: 1, name: '绘画', price: '¥50.00', category: '学前'},
+      {id: 2, name: '数学', price: '¥150.00', category: '小学'},
+      {id: 3, name: '英语', price: '¥250.00', category: '初中'},
+      {id: 4, name: '地理', price: '¥70.00', category: '高中'},
+      {id: 5, name: '物理', price: '¥450.00', category: '初中'},
+      {id: 6, name: '化学', price: '¥950.00', category: '高中'},
+      {id: 7, name: '语文', price: '¥550.00', category: '初中'},
+      {id: 8, name: '生物', price: '¥750.00', category: '高中'}
     ]
   },
   dashBoardPage: {
     recentProducts: [
-      {id: 1, title: 'Samsung TV', text: 'Samsung 32 1080p 60Hz LED Smart HDTV.'},
-      {id: 2, title: 'Playstation 4', text: 'PlayStation 3 500 GB System'},
-      {id: 3, title: 'Apple iPhone 6', text: 'Apple iPhone 6 Plus 16GB Factory Unlocked GSM 4G '},
-      {id: 4, title: 'Apple MacBook', text: 'Apple MacBook Pro MD101LL/A 13.3-Inch Laptop'}
+      {id: 1, title: '6月7日开放小学暑秋随到随测', text: '为方便学员更加快捷方便地报名小学各科的暑秋班次，学而思开放随到随测！根据测试结果推荐孩子适合的班次！'},
+      {id: 2, title: '如何在初中保持学习能力', text: '小初衔接冲刺阶段你必须要关注的两件事'},
+      {id: 3, title: '小学升学需跨的三座大山', text: '小学升学这一年，同学需要征服的三座大山'},
+      {id: 4, title: '小学学得好，初中也不落!', text: '初中数学学习和小学有什么不同？'}
     ],
     monthlySales: [
-      {name: 'Jan', uv: 3700},
-      {name: 'Feb', uv: 3000},
-      {name: 'Mar', uv: 2000},
-      {name: 'Apr', uv: 2780},
-      {name: 'May', uv: 2000},
-      {name: 'Jun', uv: 1800},
-      {name: 'Jul', uv: 2600},
-      {name: 'Aug', uv: 2900},
-      {name: 'Sep', uv: 3500},
-      {name: 'Oct', uv: 3000},
-      {name: 'Nov', uv: 2400},
-      {name: 'Dec', uv: 2780}
+      {name: '数学', uv: 3700},
+      {name: '英语', uv: 3000},
+      {name: '自然', uv: 2000},
+      {name: '语文', uv: 2780},
+      {name: '地理', uv: 2000},
+      {name: '历史', uv: 1800},
+      {name: '物理', uv: 2600},
+      {name: '生物', uv: 2900},
+      {name: '音乐', uv: 3500},
+      {name: '绘画', uv: 3000},
     ],
     newOrders: [
       {pv: 2400},
@@ -58,9 +57,9 @@ const data = {
       {pv: 4300}
     ],
     browserUsage: [
-      {name: 'Chrome', value: 800, color: cyan600, icon: <ExpandMore/>},
-      {name: 'Firefox', value: 300, color: pink600, icon: <ChevronRight/>},
-      {name: 'Safari', value: 300, color: purple600, icon: <ExpandLess/>}
+      {name: '小班教学', value: 800, color: cyan600, icon: <ExpandMore/>},
+      {name: '灵活转班', value: 300, color: pink600, icon: <ChevronRight/>},
+      {name: '专业教研', value: 300, color: purple600, icon: <ExpandLess/>}
     ]
   }
 };
