@@ -21,7 +21,6 @@
     "test:watch": "npm run test -- --watch",
     "open:cover": "npm run test:cover && open coverage/index.html"
   },
-  "author": "Rafael Zeffa",
   "license": "MIT",
   "dependencies": {
     "flexboxgrid": "6.3.1",
@@ -94,6 +93,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rafaelhz/react-material-admin-template"
+    "url": "git@github.com:lvpeng/react-material-admin-template.git"
   }
 }
